@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 echo "greet fun"
-echo "Hello $(name}"
-def call(name){
+
+def call(String name = 'user'){
 	echo "Hello ${name}"
 }
